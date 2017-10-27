@@ -1,4 +1,7 @@
 nbproject
 node_modules
 platforms/*
-
+www/*.html
+merges/browser/*.html
+merges/android/*.html
+merges/ios/*.html

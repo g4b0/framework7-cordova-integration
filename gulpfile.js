@@ -62,7 +62,7 @@ gulp.task('watch', function () {
 /**
  * Default task
  */
-gulp.task('default', ['prepare']);
+gulp.task('default', ['deploy']);
 
 
 /**

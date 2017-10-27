@@ -25,9 +25,13 @@ Cordova and npm should be installed on the developing machine
   - cordova platform add browser
   - cordova platform add android
   - cordova platform add ios (will only work on mac)
+- Run gulp, in the first run it will compile and prepare all platforms
+  - gulp
 - Point the virtualhost document root in platforms/browser/www
 - Build and run for the desired platform
   - cordova run android
+- Remember to run gulp watch when you develop
+  - gupl watch
 
 ## Todo
 Move css and js outside www and merges directory
