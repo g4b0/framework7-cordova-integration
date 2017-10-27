@@ -53,7 +53,7 @@ var mainView = myApp.addView('.view-main', {
 // Option 1. Using page callback for page (for "about" page in this case) (recommended way):
 myApp.onPageInit('about', function (page) {
     // Do something here for "about" page
-    myApp.alert('Here comes About page1');
+    //myApp.alert('Here comes About page1');
 });
 
 // Option 2. Using one 'pageInit' event handler for all pages:
