@@ -1,0 +1,21 @@
+### Italian
+I file HTML sono generati dinamicamente via gulp con i task fileinclude-ios 
+(directory www) e fileinclude-android (directory merges/android).
+L'editing del codice HTML va fatto nella directory templates, utilizzando la
+sintassi di gulp-file-include.
+Ció consente di avere del codice comune per android ed ios, mentre le differenze
+sono gestite a livello di template.
+
+gulp watch monitora sia la directory templates che la directory www, propagando
+le modifiche alla platform browser (versione ios) ed alle merges per Android.
+
+### English
+HTML files are dynamically generated via gulp with fileinclude-ios tasks (www 
+directory) and fileinclude-android (merges/android directory).
+HTML code editing is done in the templates directory, using the gulp-file-include
+syntax.
+This allows you to have the common code for android and ios, while the differences
+are managed at template level.
+
+gulp watch monitors both *templates* and *www* directory, propagating changes to
+the browser platform (ios version) and android merges.
