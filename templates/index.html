@@ -16,7 +16,7 @@
         <div class="views">
             <!-- Your main view, should have "view-main" class -->
             <div class="view view-main">
-@@include('./hp-innerbar-open.html')
+            @@include('./hp-innerbar-open.html')
 
                         <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
                         <div class="center sliding">Awesome App</div>
@@ -28,23 +28,23 @@
                             <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
                         </div>
                         
-@@include('./hp-innerbar-close.html')
+            @@include('./hp-innerbar-close.html')
 
-@@if (os === 'android') {
-    @@include('../includes/toolbar.html')
-}
+            @@if (os === 'android') {
+                @@include('../includes/toolbar.html')
+            }
 
-@@include('./hp-page-open.html')
+            @@include('./hp-page-open.html')
 
                         <p>Page content goes here</p>
                         <!-- Link to another page -->
                         <a href="about.html">About</a>
                         
-@@include('./hp-page-close.html')
+            @@include('./hp-page-close.html')
 
-@@if (os === 'ios') {
-    @@include('../includes/toolbar.html')
-}
+            @@if (os === 'ios') {
+                @@include('../includes/toolbar.html')
+            }
 
 
             </div>
