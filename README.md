@@ -17,18 +17,17 @@ The result is that on each file save the document root into *platforms/browser/w
 Cordova and npm should be installed on the developing machine
 
 ## Init
-* Clone this repo
-* Run *npm install*
-* Add the desired platform, for example browser, android, ios
-* Point the virtualhost document root in platforms/browser/www
-* Build and run for the desired platform
-
-* git clone https://github.com/g4b0/framework7-cordova-integration.git
-* npm install
-* cordova platform add browser
-* cordova platform add android
-* cordova platform add ios (will only work on mac)
-* cordova run android
+- Clone this repo
+  - git clone https://github.com/g4b0/framework7-cordova-integration.git
+- Run *npm install*
+  - npm install
+- Add the desired platform, for example browser, android, ios
+  - cordova platform add browser
+  - cordova platform add android
+  - cordova platform add ios (will only work on mac)
+- Point the virtualhost document root in platforms/browser/www
+- Build and run for the desired platform
+  - cordova run android
 
 ## Todo
 Move css and js outside www and merges directory
