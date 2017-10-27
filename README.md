@@ -23,12 +23,12 @@ Cordova and npm should be installed on the developing machine
 * Point the virtualhost document root in platforms/browser/www
 * Build and run for the desired platform
 
-git clone https://github.com/g4b0/framework7-cordova-integration.git
-npm install
-cordova platform add browser
-cordova platform add android
-cordova platform add ios (will only work on mac)
-cordova run android
+* git clone https://github.com/g4b0/framework7-cordova-integration.git
+* npm install
+* cordova platform add browser
+* cordova platform add android
+* cordova platform add ios (will only work on mac)
+* cordova run android
 
 ## Todo
 Move css and js outside www and merges directory
