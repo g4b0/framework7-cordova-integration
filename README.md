@@ -34,7 +34,7 @@ Cordova and npm should be installed on the developing machine
 - Build and run for the desired platform
   - cordova run android
 - Remember to run gulp watch when you develop
-  - gupl watch
+  - gulp watch
 
 ## Todo
 Move css and js outside www and merges directory
