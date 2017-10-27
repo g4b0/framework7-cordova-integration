@@ -2,7 +2,8 @@
 Framework7 cordova integration with ios/android template engine
 
 ## Description
-Gulp task integrating Framwork7 android and ios html dialect into a simple (rough?) template engine.
+Gulp task integrating Framework7 android and ios html dialect into a simple (rough?) template engine.
+You can use it as your Cordova/Framework7 boilerplate.
 
 ## How it works
 At the core of this task there is gulp-file-include plugin [https://www.npmjs.com/package/gulp-file-include]
