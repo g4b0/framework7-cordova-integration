@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="net.brosulo.framework7.test" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Framework7 test</name>
+<widget id="net.brosulo.framework7.boilerplate" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Framework7 cordova boilerplate</name>
     <description>
-        A sample Apache Cordova / Framework 7 application.
+        Framework7 cordova boilerplate with ios/android template engine
     </description>
     <author email="gabriele@brosulo.net" href="http://brosulo.net">
         Gabriele Brosulo

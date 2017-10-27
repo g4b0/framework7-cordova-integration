@@ -22,6 +22,7 @@ Cordova and npm should be installed on the developing machine
   - git clone https://github.com/g4b0/framework7-cordova-integration.git
 - Run *npm install*
   - npm install
+- Update config.xml and package.json to describe your project
 - Add the desired platform, for example browser, android, ios
   - cordova platform add browser
   - cordova platform add android

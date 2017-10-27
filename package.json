@@ -1,7 +1,7 @@
 {
-  "name": "framework7test",
-  "version": "1.0.0",
-  "description": "Test framework 7",
+  "name": "Framework7 cordova boilerplate ",
+  "version": "1.0.3",
+  "description": "Framework7 cordova boilerplate with ios/android template engine",
   "license" : "MIT",
   "dependencies": {
     "gulp": "^3.9.1"
