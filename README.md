@@ -1,6 +1,8 @@
 # framework7-cordova-integration
 Framework7 cordova integration with ios/android template engine
 
+WARNING: this is a dead project, have a look at https://github.com/framework7io/framework7-cli-template-tabs - it does the same work, but it's integrated inside Framework7
+
 ## Description
 Gulp task integrating Framework7 android and ios html dialect into a simple (rough?) template engine.
 You can use it as your Cordova/Framework7 boilerplate.
